@@ -25,7 +25,7 @@ jobs:
         run: flutter pub get
         
       - name: Build web
-        run: flutter build web --release --base-href /orsiys_enc_page/
+        run: flutter build web --release --base-href /orisys_enc_page/
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
